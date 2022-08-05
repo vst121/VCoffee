@@ -1,2 +1,2 @@
 # VCoffee
-VCoffee is a projects base on .NET &amp; Vue.js
+VCoffee is a projects based on .NET &amp; Vue.js
