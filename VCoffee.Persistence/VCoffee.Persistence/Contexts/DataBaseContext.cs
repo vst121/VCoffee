@@ -24,6 +24,7 @@ namespace VCoffee.Persistence.Contexts
         private void ApplyQueryFilter(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().HasQueryFilter(p => !p.IsRemoved);
+
         }
     }
 }
