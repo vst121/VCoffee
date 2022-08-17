@@ -10,6 +10,5 @@ namespace VCoffee.Domain.Entities.Products
         public decimal Price { get; set; }
         [MaxLength(128)]
         public string Description { get; set; }
-
     }
 }
