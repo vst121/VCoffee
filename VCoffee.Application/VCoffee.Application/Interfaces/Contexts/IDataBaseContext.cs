@@ -11,8 +11,7 @@ namespace VCoffee.Application.Interfaces.Contexts
 {
     public interface IDataBaseContext
     {
-        DbSet<Product> Products { get; set; }
-        
+        DbSet<Product> Products { get; set; }        
         int SaveChanges(bool acceptAllChangesOnSuccess);
         int SaveChanges();
         Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = new CancellationToken());
